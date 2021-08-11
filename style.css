@@ -1,7 +1,7 @@
 html {
   background: #282828;
   text-align: center;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 body {
@@ -46,13 +46,13 @@ body {
   position: absolute;
   width: 5px;
   height: 100%;
-  background: #1df52f;
+  background: #cbce0d;
   z-index: 0;
   left: 49%;
 }
 
 .outer-clock-face .marking {
-  background: #bdbdcd;
+  background: #2626a5;
   width: 3px;
 }
 
@@ -101,7 +101,6 @@ transform: rotate(150deg);
   width: 50%;
   right: 50%;
   height: 6px;
-  background: #61afff;
   position: absolute;
   top: 50%;
   border-radius: 6px;
@@ -113,16 +112,24 @@ transform: rotate(150deg);
 .hand.hour-hand {
   width: 30%;
   z-index: 3;
+  background: #c9cc28;
+
+
+
 }
 
 .hand.min-hand {
   height: 3px;
   z-index: 10;
   width: 40%;
+  background: #1e28af;
+
+
 }
 
 .hand.second-hand {
-  background: #ee791a;
+  background: #e00404;
   width: 45%;
   height: 2px;
+ 
 }
